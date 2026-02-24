@@ -12,8 +12,8 @@ int main() {
 
 	user_init(array, length);
 	print("result: ");
-	bool mirror = find_mirror(array, length);
-	string msg = mirror ? "vector mirror" : "vector not mirror";
+	bool mirror = find_ordered(array, length);
+	string msg = mirror ? "vector order" : "vector not order";
 
 	print(msg);
 
