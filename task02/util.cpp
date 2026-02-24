@@ -8,6 +8,6 @@ void user_init(int array[DEFAULT_SIZE], int length) {
 }
 
 
-void print(string msg, int number) {
-	cout << msg << number << endl;;
+void print(string msg) {
+	cout << msg << endl;;
 }
