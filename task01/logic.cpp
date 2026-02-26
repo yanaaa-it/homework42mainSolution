@@ -13,3 +13,9 @@ int find_negative(int array[DEFAULT_SIZE], int length) {
 	}
 	return negative;
 }
+int find_zero(int arr(ay[DEFAULT_SIZE], int length) {
+	int negative=find_negative(array,length);
+	int positive=find_positive(array,length);
+	
+	return length-negative-positive;
+}
