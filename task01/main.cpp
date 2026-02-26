@@ -14,7 +14,7 @@ int main() {
 
 	int positive = find_positive(array, length);
 	int negative = find_negative(array, length);
-	int zero =length- (positive + negative) ;
+	int zero =find_zero(array, length) ;
 
 	print("positive numbers:", positive);
 	print("negative numbers:", negative);
