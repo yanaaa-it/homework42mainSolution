@@ -5,4 +5,4 @@
 using namespace std;
 
 bool find_ascending_ordered(int array[DEFAULT_SIZE], int length);
-bool find_descending_ordered(int array[DEFAULT_SIZE], int length)
+bool find_descending_ordered(int array[DEFAULT_SIZE], int length);
