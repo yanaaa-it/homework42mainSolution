@@ -1,10 +1,17 @@
 #include"logic.h"
-bool find_ordered(int array[DEFAULT_SIZE], int length) { 
-    bool ascending = true;  
-    bool descending = true;
+bool find_ascending_ordered(int array[DEFAULT_SIZE], int length) {   
     for (int i = 1; i < length; i++) {
-        if (array[i] < array[i - 1]) ascending= false;
-        if (array[i] > array[i - 1]) descending= false;
+        if (array[i] > array[i - 1]){ 
+            return false;
+        }
     }
-    return ascending?ascending:descending;
+    return true;
 }
+ bool find_descending_ordered(int array[DEFAULT_SIZE], int length){
+    for (int i = 1; i < length; i++) {
+        if (array[i] > array[i - 1]){
+            return false;
+        }
+    }
+     return true;
+ }
