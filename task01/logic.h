@@ -6,3 +6,4 @@ using namespace std;
 
 int find_positive(int array[DEFAULT_SIZE], int length);
 int find_negative(int array[DEFAULT_SIZE], int length);
+int find_zero(int array[DEFAULT_SIZE], int length);
